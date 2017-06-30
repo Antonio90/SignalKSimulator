@@ -22,6 +22,7 @@ wss.on('connection', function connection(ws) {
   //    console.info("Nuovo giro, nuova corsa...\n");
   //}
   
+  console.info("Finito!")
  
 });
 
