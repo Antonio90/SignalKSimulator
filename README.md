@@ -7,7 +7,7 @@ Simulatore di websocket signalk
     * enjoy
 
 # Configuration url
-Per configurare l'ip e il path di questa websocket modificare la riga:\n
+Per configurare l'ip e il path di questa websocket modificare la riga:
 <code>
     const wss = new WebSocket.Server({ 
             port: 9330,
