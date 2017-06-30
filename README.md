@@ -1,13 +1,13 @@
 ## SIGNAL K SIMULATOR
 Simulatore di websocket signalk
 
-#How to run
-    ° npm install
-    ° npm start
-    ° enjoy
+# How to run
+    * npm install
+    * npm start
+    * enjoy
 
-#Configuration url
-Per configurare l'ip e il path di questa websocket modificare la riga:
+# Configuration url
+Per configurare l'ip e il path di questa websocket modificare la riga:\n
 <code>
     const wss = new WebSocket.Server({ 
             port: 9330,
