@@ -26,6 +26,10 @@ wss.on('connection', function connection(ws) {
  
 });
 
+wss.on('close',function(){
+	console.info("Cliente kitammuorto disconnesso");
+})
+
 function sleep(milliseconds) {
   var start = new Date().getTime();
   for (var i = 0; i < 1e7; i++) {
